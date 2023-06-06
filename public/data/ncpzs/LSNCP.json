@@ -1,0 +1,3704 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [108.0833, 34.261],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.1",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "0",
+        "LONGITUDE": 108.08328,
+        "ADDRESS": "杨凌农士达果蔬专业合作社",
+        "CERTNUM": "LB-18-1710266624A",
+        "LATITUDE": 34.26103,
+        "TYPE": "其他",
+        "DISTRICTID": "610403002",
+        "NAME": "火龙果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.0833, 34.261],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.2",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "1",
+        "LONGITUDE": 108.08328,
+        "ADDRESS": "杨凌农士达果蔬专业合作社",
+        "CERTNUM": "LB-15-1710266623A",
+        "LATITUDE": 34.26103,
+        "TYPE": "其他",
+        "DISTRICTID": "610403002",
+        "NAME": "草莓"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.0833, 34.261],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.3",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "2",
+        "LONGITUDE": 108.08328,
+        "ADDRESS": "杨凌农士达果蔬专业合作社",
+        "CERTNUM": "LB-15-1710266622A",
+        "LATITUDE": 34.26103,
+        "TYPE": "其他",
+        "DISTRICTID": "610403002",
+        "NAME": "西瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.0646, 34.2736],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.4",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "3",
+        "LONGITUDE": 108.06464,
+        "ADDRESS": "杨凌康绿生态农业开发有限公司",
+        "CERTNUM": "LB-31-1211263406A",
+        "LATITUDE": 34.27358,
+        "TYPE": "其他",
+        "DISTRICTID": "610403003",
+        "NAME": "鲜鸡蛋"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [106.7529, 34.4654],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.5",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "4",
+        "LONGITUDE": 106.752908,
+        "ADDRESS": "宝鸡民香果业有限责任公司",
+        "CERTNUM": "GF610324160835",
+        "LATITUDE": 34.465387,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610304112",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.9364, 34.1939],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.6",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "5",
+        "LONGITUDE": 108.93643,
+        "ADDRESS": "西安丰园果业科技有限公司",
+        "CERTNUM": "LB-18-18012601161A",
+        "LATITUDE": 34.19385,
+        "TYPE": "其他",
+        "DISTRICTID": "610113003",
+        "NAME": "桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.9364, 34.1939],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.7",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "6",
+        "LONGITUDE": 108.93643,
+        "ADDRESS": "西安丰园果业科技有限公司",
+        "CERTNUM": "LB-18-18012601162A",
+        "LATITUDE": 34.19385,
+        "TYPE": "其他",
+        "DISTRICTID": "610113003",
+        "NAME": "杏"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.9751, 34.3675],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.8",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "7",
+        "LONGITUDE": 108.9751,
+        "ADDRESS": "西安天益美生态农业科技有限公司",
+        "CERTNUM": "LB-18-1706263114A",
+        "LATITUDE": 34.36753,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610112011",
+        "NAME": "葡萄"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.7231, 34.0567],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.9",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "8",
+        "LONGITUDE": 108.72314,
+        "ADDRESS": "户县同兴瓜菜专业合作社",
+        "CERTNUM": "LB-15-1606262810A",
+        "LATITUDE": 34.05673,
+        "TYPE": "其他",
+        "DISTRICTID": "610118006",
+        "NAME": "西瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4092, 35.7687],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.10",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "9",
+        "LONGITUDE": 109.40918,
+        "ADDRESS": "洛川美域高生物科技有限责任公司",
+        "CERTNUM": "LB-18-1608264002A",
+        "LATITUDE": 35.7687,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.5947, 35.1821],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.11",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "10",
+        "LONGITUDE": 109.5947,
+        "ADDRESS": "陕西省白水县宏达果业有限责任公司",
+        "CERTNUM": "LB-18-1703261660A",
+        "LATITUDE": 35.18207,
+        "TYPE": "苹果",
+        "DISTRICTID": "610527001",
+        "NAME": "秦冠苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.5947, 35.1821],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.12",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "11",
+        "LONGITUDE": 109.5947,
+        "ADDRESS": "陕西省白水县宏达果业有限责任公司",
+        "CERTNUM": "LB-18-1703261659A",
+        "LATITUDE": 35.18207,
+        "TYPE": "苹果",
+        "DISTRICTID": "610527001",
+        "NAME": "富士苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.0274, 33.0696],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.13",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "12",
+        "LONGITUDE": 107.02738,
+        "ADDRESS": "汉中市汉台区河东店镇义军柑橘产销农民专业合作社",
+        "CERTNUM": "LB-18-1607263290A",
+        "LATITUDE": 33.06964,
+        "TYPE": "其他",
+        "DISTRICTID": "610702004",
+        "NAME": "桔"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.1708, 36.9269],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.14",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "13",
+        "LONGITUDE": 108.170838,
+        "ADDRESS": "吴起县张兰利民农场",
+        "CERTNUM": "001",
+        "LATITUDE": 36.92691,
+        "TYPE": "其他",
+        "DISTRICTID": "610626001",
+        "NAME": "小米"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.9364, 34.1939],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.15",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "14",
+        "LONGITUDE": 108.93643,
+        "ADDRESS": "西安丰园果业科技有限公司",
+        "CERTNUM": "LB-18-18012601160A",
+        "LATITUDE": 34.19385,
+        "TYPE": "其他",
+        "DISTRICTID": "610113003",
+        "NAME": "李"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [110.1438, 35.2379],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.16",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "15",
+        "LONGITUDE": 110.143801,
+        "ADDRESS": "合阳县雨阳富硒农产品专业合作社",
+        "CERTNUM": "LB-14-1712269607A",
+        "LATITUDE": 35.237921,
+        "TYPE": "其他",
+        "DISTRICTID": "610524001",
+        "NAME": "小米"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5963, 37.5942],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.17",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "16",
+        "LONGITUDE": 107.596315,
+        "ADDRESS": "定边县助民大棚蔬菜专业合作社",
+        "CERTNUM": "LB-15-1701260082A",
+        "LATITUDE": 37.594208,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "辣椒"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5963, 37.5942],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.18",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "17",
+        "LONGITUDE": 107.596315,
+        "ADDRESS": "定边县助民大棚蔬菜专业合作社",
+        "CERTNUM": "LB-15-1608268894A",
+        "LATITUDE": 37.594208,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "西瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5963, 37.5942],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.19",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "18",
+        "LONGITUDE": 107.596315,
+        "ADDRESS": "定边县助民大棚蔬菜专业合作社",
+        "CERTNUM": "LB-15-1608268896A",
+        "LATITUDE": 37.594208,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "甜瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5963, 37.5942],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.20",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "19",
+        "LONGITUDE": 107.596315,
+        "ADDRESS": "定边县助民大棚蔬菜专业合作社",
+        "CERTNUM": "LB-15-1701260083A",
+        "LATITUDE": 37.594208,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "马铃薯"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5963, 37.5942],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.21",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "20",
+        "LONGITUDE": 107.596315,
+        "ADDRESS": "定边县助民大棚蔬菜专业合作社",
+        "CERTNUM": "LB-15-1701260081A",
+        "LATITUDE": 37.594208,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "胡萝卜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5963, 37.5942],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.22",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "21",
+        "LONGITUDE": 107.596315,
+        "ADDRESS": "定边县助民大棚蔬菜专业合作社",
+        "CERTNUM": "LB-15-1608268895A",
+        "LATITUDE": 37.594208,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "草莓"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4521, 35.6618],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.23",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "22",
+        "LONGITUDE": 109.45208,
+        "ADDRESS": "洛川县杨舒鸿泰苹果专业合作社",
+        "CERTNUM": "LB-18-1704262096A",
+        "LATITUDE": 35.66175,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629103",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5907, 37.5786],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.24",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "23",
+        "LONGITUDE": 107.59066,
+        "ADDRESS": "定边县兴民农业发展专业合作社",
+        "CERTNUM": "LB-23-1704262247A",
+        "LATITUDE": 37.57862,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "马铃薯"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.5323, 35.9964],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.25",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "24",
+        "LONGITUDE": 109.53232,
+        "ADDRESS": "洛川民丰农民专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.99639,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629108",
+        "NAME": "富士"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.6662, 37.6309],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.26",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "25",
+        "LONGITUDE": 107.66616,
+        "ADDRESS": "定边县科发马铃薯良种有限责任公司",
+        "CERTNUM": "LB-23-18072605235A",
+        "LATITUDE": 37.63092,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "马铃薯"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.27",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "26",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川顶端苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4843, 36.5852],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.28",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "27",
+        "LONGITUDE": 109.484341,
+        "ADDRESS": "延安海升现代农业有限公司",
+        "CERTNUM": "农科绿【2015】29号",
+        "LATITUDE": 36.58517,
+        "TYPE": "苹果",
+        "DISTRICTID": "610602002",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.3966, 35.7022],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.29",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "28",
+        "LONGITUDE": 109.396611,
+        "ADDRESS": "洛川县京兆志文苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.702235,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629102",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.30",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "29",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川县建森苹果专业合作社",
+        "CERTNUM": "LB-18-1607263617A",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.4989, 34.2118],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.31",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "30",
+        "LONGITUDE": 108.49893,
+        "ADDRESS": "西安荣华农业科技发展有限公司",
+        "CERTNUM": "LB-18-17122610263A",
+        "LATITUDE": 34.21179,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610124106",
+        "NAME": "葡萄"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8302, 34.2248],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.32",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "31",
+        "LONGITUDE": 107.83024,
+        "ADDRESS": "眉县金桥果业专业合作社",
+        "CERTNUM": "LB-18-19112614358A",
+        "LATITUDE": 34.22482,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610326105",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5963, 37.5942],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.33",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "32",
+        "LONGITUDE": 107.596315,
+        "ADDRESS": "定边白泥井镇恒圣农业专业合作社",
+        "CERTNUM": "LB-23-18072605581A",
+        "LATITUDE": 37.594208,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "马铃薯"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4887, 35.7497],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.34",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "33",
+        "LONGITUDE": 109.488686,
+        "ADDRESS": "洛川洛安府安兴苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.749664,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.35",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "34",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川民园爱心苹果农机农民专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.36",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "35",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川富川农牧专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.5323, 35.9973],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.37",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "36",
+        "LONGITUDE": 109.532341,
+        "ADDRESS": "洛川菩堤兴乐苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.997289,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629108",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4366, 35.7615],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.38",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "37",
+        "LONGITUDE": 109.43659,
+        "ADDRESS": "洛川季季旺农牧专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.76145,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.7278, 38.2932],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.39",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "38",
+        "LONGITUDE": 109.72775,
+        "ADDRESS": "陕西轩乐农牧科技有限公司",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 38.2932,
+        "TYPE": "苹果",
+        "DISTRICTID": "610802006",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.40",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "39",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川县万农苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4048, 35.7663],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.41",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "40",
+        "LONGITUDE": 109.40484,
+        "ADDRESS": "洛川县旧县镇洛阳苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.76627,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.42",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "41",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川县鹏丰苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4406, 35.7727],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.43",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "42",
+        "LONGITUDE": 109.440554,
+        "ADDRESS": "洛川县果红苹果农民专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.772713,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.44",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "43",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川苌风苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.45",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "44",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川长林农牧专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.46",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "45",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川县瑞和苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.47",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "46",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川县鸿联苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4531, 35.8305],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.48",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "47",
+        "LONGITUDE": 109.45306,
+        "ADDRESS": "洛川县通祥果业有限公司",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.83046,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629107",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.49",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "48",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川县农友果业有限责任公司",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4507, 35.8302],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.50",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "49",
+        "LONGITUDE": 109.45066,
+        "ADDRESS": "洛川绿塬红苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.83018,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629107",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.51",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "50",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川中润农业科技有限公司",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4058, 35.766],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.52",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "51",
+        "LONGITUDE": 109.40582,
+        "ADDRESS": "洛川县泉兴果业有限责任公司",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.76604,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.53",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "52",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川县土基镇曹马村福明苹果专业合作社",
+        "CERTNUM": "农绿科2015【29】号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "红富士苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.54",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "53",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川县红宝果品冷藏有限责任公司",
+        "CERTNUM": "LB-18-I702260782A",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.55",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "54",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川华茂实业有限责任公司",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8906, 32.5391],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.56",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "55",
+        "LONGITUDE": 107.890598,
+        "ADDRESS": "镇巴县长花生态农牧专业合作社",
+        "CERTNUM": "LB-03-18092607434A",
+        "LATITUDE": 32.539055,
+        "TYPE": "其他",
+        "DISTRICTID": "610728001",
+        "NAME": "大米"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8906, 32.5391],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.57",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "56",
+        "LONGITUDE": 107.890598,
+        "ADDRESS": "镇巴县长花生态农牧专业合作社",
+        "CERTNUM": "LB-21-18092607435A",
+        "LATITUDE": 32.539055,
+        "TYPE": "其他",
+        "DISTRICTID": "610728001",
+        "NAME": "香菇"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8906, 32.5391],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.58",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "57",
+        "LONGITUDE": 107.890598,
+        "ADDRESS": "镇巴县长花生态农牧专业合作社",
+        "CERTNUM": "LB-21-18092607433A",
+        "LATITUDE": 32.539055,
+        "TYPE": "其他",
+        "DISTRICTID": "610728001",
+        "NAME": "木耳"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.59",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "58",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川冠隆贸易有限责任公司",
+        "CERTNUM": "农科绿【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4386, 35.7672],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.60",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "59",
+        "LONGITUDE": 109.438554,
+        "ADDRESS": "洛川县源丰苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.767229,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.5373, 34.4696],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.61",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "60",
+        "LONGITUDE": 109.53733,
+        "ADDRESS": "渭南长寿塬果业种植农民专业合作社",
+        "CERTNUM": "LB-18-18042602993A",
+        "LATITUDE": 34.46958,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610502113",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.3128, 34.0598],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.62",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "61",
+        "LONGITUDE": 107.31281,
+        "ADDRESS": "陕西太白绿农蔬菜有限责任公司",
+        "CERTNUM": "LB-15-1612267648A",
+        "LATITUDE": 34.05976,
+        "TYPE": "其他",
+        "DISTRICTID": "610331100",
+        "NAME": "番茄"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.3128, 34.0598],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.63",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "62",
+        "LONGITUDE": 107.31281,
+        "ADDRESS": "陕西太白绿农蔬菜有限责任公司",
+        "CERTNUM": "LB-15-1612267649A",
+        "LATITUDE": 34.05976,
+        "TYPE": "其他",
+        "DISTRICTID": "610331100",
+        "NAME": "辣椒"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.3128, 34.0598],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.64",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "63",
+        "LONGITUDE": 107.31281,
+        "ADDRESS": "陕西太白绿农蔬菜有限责任公司",
+        "CERTNUM": "LB-15-1612267650A",
+        "LATITUDE": 34.05976,
+        "TYPE": "其他",
+        "DISTRICTID": "610331100",
+        "NAME": "冬瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.3128, 34.0598],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.65",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "64",
+        "LONGITUDE": 107.31281,
+        "ADDRESS": "陕西太白绿农蔬菜有限责任公司",
+        "CERTNUM": "LB-15-1612267651A",
+        "LATITUDE": 34.05976,
+        "TYPE": "其他",
+        "DISTRICTID": "610331100",
+        "NAME": "黄瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.3128, 34.0598],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.66",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "65",
+        "LONGITUDE": 107.31281,
+        "ADDRESS": "陕西太白绿农蔬菜有限责任公司",
+        "CERTNUM": "LB-15-1612267652A",
+        "LATITUDE": 34.05976,
+        "TYPE": "其他",
+        "DISTRICTID": "610331100",
+        "NAME": "佛手瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.3128, 34.0598],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.67",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "66",
+        "LONGITUDE": 107.31281,
+        "ADDRESS": "陕西太白绿农蔬菜有限责任公司",
+        "CERTNUM": "LB-15-1612267653A",
+        "LATITUDE": 34.05976,
+        "TYPE": "其他",
+        "DISTRICTID": "610331100",
+        "NAME": "茄子"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.3128, 34.0598],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.68",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "67",
+        "LONGITUDE": 107.31281,
+        "ADDRESS": "陕西太白绿农蔬菜有限责任公司",
+        "CERTNUM": "LB-15-1612267654A",
+        "LATITUDE": 34.05976,
+        "TYPE": "其他",
+        "DISTRICTID": "610331100",
+        "NAME": "南瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.3128, 34.0598],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.69",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "68",
+        "LONGITUDE": 107.31281,
+        "ADDRESS": "陕西太白绿农蔬菜有限责任公司",
+        "CERTNUM": "LB-15-1612267655A",
+        "LATITUDE": 34.05976,
+        "TYPE": "其他",
+        "DISTRICTID": "610331100",
+        "NAME": "甘薯"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.0455, 33.0702],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.70",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "69",
+        "LONGITUDE": 107.04552,
+        "ADDRESS": "杨凌红钰种植专业合作社",
+        "CERTNUM": "LB-18-18062604227A",
+        "LATITUDE": 33.07017,
+        "TYPE": "其他",
+        "DISTRICTID": "610702005",
+        "NAME": "蟠桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.0455, 33.0702],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.71",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "70",
+        "LONGITUDE": 107.04552,
+        "ADDRESS": "杨凌红钰种植专业合作社",
+        "CERTNUM": "LB-18-18062604228A",
+        "LATITUDE": 33.07017,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610702005",
+        "NAME": "葡萄"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.0455, 33.0702],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.72",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "71",
+        "LONGITUDE": 107.04552,
+        "ADDRESS": "杨凌红钰种植专业合作社",
+        "CERTNUM": "LB-18-18062604229A",
+        "LATITUDE": 33.07017,
+        "TYPE": "其他",
+        "DISTRICTID": "610702005",
+        "NAME": "樱桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.0666, 34.2715],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.73",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "72",
+        "LONGITUDE": 108.06656,
+        "ADDRESS": "杨凌社宏果蔬专业合作社",
+        "CERTNUM": "LB-18-18072604935A",
+        "LATITUDE": 34.27145,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610403001",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.6286, 36.0138],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.74",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "73",
+        "LONGITUDE": 109.628606,
+        "ADDRESS": "洛川東塬山地苹果专业合作社",
+        "CERTNUM": "农科绿【2015】29号",
+        "LATITUDE": 36.01383,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629108",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4521, 35.7857],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.75",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "74",
+        "LONGITUDE": 109.45206,
+        "ADDRESS": "洛川县凯达果品有限责任公司",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.78566,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4096, 35.7704],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.76",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "75",
+        "LONGITUDE": 109.40956,
+        "ADDRESS": "洛川县都得利果业有限责任公司",
+        "CERTNUM": "农科绿【2015】29号",
+        "LATITUDE": 35.77036,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.5373, 34.4696],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.77",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "76",
+        "LONGITUDE": 109.53733,
+        "ADDRESS": "渭南长寿塬果业种植农民专业合作社",
+        "CERTNUM": "LB-18-19092613328A",
+        "LATITUDE": 34.46958,
+        "TYPE": "苹果",
+        "DISTRICTID": "610502113",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.5791, 34.9881],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.78",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "77",
+        "LONGITUDE": 109.579053,
+        "ADDRESS": "蒲城六合老口味家庭农场",
+        "CERTNUM": "123",
+        "LATITUDE": 34.988107,
+        "TYPE": "其他",
+        "DISTRICTID": "610526116",
+        "NAME": "甜瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.9061, 34.5349],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.79",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "78",
+        "LONGITUDE": 108.90611,
+        "ADDRESS": "陕西朴道茯茶股份有限公司",
+        "CERTNUM": "10618Q100064R0S",
+        "LATITUDE": 34.53488,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610423101",
+        "NAME": "黑茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.5005, 34.3783],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.80",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "79",
+        "LONGITUDE": 109.50048,
+        "ADDRESS": "渭南市奥特果业种植农民专业合作社",
+        "CERTNUM": "ＬＢ-18-18062607338Ａ",
+        "LATITUDE": 34.37832,
+        "TYPE": "其他",
+        "DISTRICTID": "610502101",
+        "NAME": "冬枣"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.2247, 34.3811],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.81",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "80",
+        "LONGITUDE": 109.22468,
+        "ADDRESS": "陕西福瑞特生态农业发展有限公司",
+        "CERTNUM": "LB-15-1707264344A",
+        "LATITUDE": 34.38108,
+        "TYPE": "其他",
+        "DISTRICTID": "610115002",
+        "NAME": "西红柿"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.2247, 34.3811],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.82",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "81",
+        "LONGITUDE": 109.22468,
+        "ADDRESS": "陕西福瑞特生态农业发展有限公司",
+        "CERTNUM": "LB-15-1707264343A",
+        "LATITUDE": 34.38108,
+        "TYPE": "其他",
+        "DISTRICTID": "610115002",
+        "NAME": "黄瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.2247, 34.3811],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.83",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "82",
+        "LONGITUDE": 109.22468,
+        "ADDRESS": "陕西福瑞特生态农业发展有限公司",
+        "CERTNUM": "LB-15-1707264346A",
+        "LATITUDE": 34.38108,
+        "TYPE": "其他",
+        "DISTRICTID": "610115002",
+        "NAME": "番茄"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.2247, 34.3811],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.84",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "83",
+        "LONGITUDE": 109.22468,
+        "ADDRESS": "陕西福瑞特生态农业发展有限公司",
+        "CERTNUM": "LB-15-1707264347A",
+        "LATITUDE": 34.38108,
+        "TYPE": "其他",
+        "DISTRICTID": "610115002",
+        "NAME": "茄子"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.2247, 34.3811],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.85",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "84",
+        "LONGITUDE": 109.22468,
+        "ADDRESS": "陕西福瑞特生态农业发展有限公司",
+        "CERTNUM": "LB-18-1707264342A",
+        "LATITUDE": 34.38108,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610115002",
+        "NAME": "葡萄"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.2247, 34.3811],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.86",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "85",
+        "LONGITUDE": 109.22468,
+        "ADDRESS": "陕西福瑞特生态农业发展有限公司",
+        "CERTNUM": "LB-15-1707264341A",
+        "LATITUDE": 34.38108,
+        "TYPE": "其他",
+        "DISTRICTID": "610115002",
+        "NAME": "甜瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.2247, 34.3811],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.87",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "86",
+        "LONGITUDE": 109.22468,
+        "ADDRESS": "陕西福瑞特生态农业发展有限公司",
+        "CERTNUM": "LB-15-1707264345A",
+        "LATITUDE": 34.38108,
+        "TYPE": "其他",
+        "DISTRICTID": "610115002",
+        "NAME": "西瓜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.9318, 34.8098],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.88",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "87",
+        "LONGITUDE": 109.931789,
+        "ADDRESS": "渭南贤乡紫韵文化产业有限责任公司",
+        "CERTNUM": "LB-18-1408262778A",
+        "LATITUDE": 34.80978,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610523001",
+        "NAME": "葡萄"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.9395, 34.2728],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.89",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "88",
+        "LONGITUDE": 108.93952,
+        "ADDRESS": "陕西一叶轩生态科技有限公司",
+        "CERTNUM": "QS610914010019",
+        "LATITUDE": 34.27281,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610104001",
+        "NAME": "一叶轩贡茶（紫阳富硒绿茶）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [106.8708, 34.8637],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.90",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "89",
+        "LONGITUDE": 106.87077,
+        "ADDRESS": "陇县盛源果品有限责任公司",
+        "CERTNUM": "LB-18-1705262976A",
+        "LATITUDE": 34.86374,
+        "TYPE": "苹果",
+        "DISTRICTID": "610327104",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.505, 34.5013],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.91",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "90",
+        "LONGITUDE": 109.50498,
+        "ADDRESS": "渭南裕美现代农业设施工程有限公司",
+        "CERTNUM": "LB-18-21052611404A",
+        "LATITUDE": 34.501276,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610502001",
+        "NAME": "葡萄"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8906, 32.5391],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.92",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "91",
+        "LONGITUDE": 107.890598,
+        "ADDRESS": "镇巴县钰丰生态农牧开发有限责任公司",
+        "CERTNUM": "LB-03-19032602552A",
+        "LATITUDE": 32.539055,
+        "TYPE": "其他",
+        "DISTRICTID": "610728001",
+        "NAME": "大米"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.8809, 34.1994],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.93",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "92",
+        "LONGITUDE": 108.88086,
+        "ADDRESS": "陕西众智汇农业开发有限公司",
+        "CERTNUM": "LB-18-19012600952A",
+        "LATITUDE": 34.19935,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610113007",
+        "NAME": "葡萄"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.0594, 34.6966],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.94",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "93",
+        "LONGITUDE": 107.0594,
+        "ADDRESS": "宝鸡华圣果业有限责任公司",
+        "CERTNUM": "LB-18-17122682",
+        "LATITUDE": 34.69655,
+        "TYPE": "苹果",
+        "DISTRICTID": "610328104",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.2824, 33.1743],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.95",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "94",
+        "LONGITUDE": 107.28235,
+        "ADDRESS": "汉中市天丰米业有限责任公司",
+        "CERTNUM": "LB-03-18082606433A",
+        "LATITUDE": 33.17431,
+        "TYPE": "其他",
+        "DISTRICTID": "610722001",
+        "NAME": "大米"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.9289, 32.4955],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.96",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "95",
+        "LONGITUDE": 107.92885,
+        "ADDRESS": "汉中市南乡春茶业科技有限公司",
+        "CERTNUM": "LB-44-19052604369A",
+        "LATITUDE": 32.49547,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728110",
+        "NAME": "南乡春汉中仙毫"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.9289, 32.4955],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.97",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "96",
+        "LONGITUDE": 107.92885,
+        "ADDRESS": "汉中市南乡春茶业科技有限公司",
+        "CERTNUM": "LB-44-19052604368A",
+        "LATITUDE": 32.49547,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728110",
+        "NAME": "南乡春汉中毛尖"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.0102, 33.0701],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.98",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "97",
+        "LONGITUDE": 107.01017,
+        "ADDRESS": "陕西熙园生态农业有限公司",
+        "CERTNUM": "LB-44-19042602715A",
+        "LATITUDE": 33.07006,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610702003",
+        "NAME": "汉中仙毫"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.0102, 33.0701],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.99",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "98",
+        "LONGITUDE": 107.01017,
+        "ADDRESS": "陕西熙园生态农业有限公司",
+        "CERTNUM": "LB-44-19042602712A",
+        "LATITUDE": 33.07006,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610702003",
+        "NAME": "汉中红"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.0102, 33.0701],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.100",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "99",
+        "LONGITUDE": 107.01017,
+        "ADDRESS": "陕西熙园生态农业有限公司",
+        "CERTNUM": "LB-44-19042602714A",
+        "LATITUDE": 33.07006,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610702003",
+        "NAME": "汉中毛尖"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.0102, 33.0701],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.101",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "100",
+        "LONGITUDE": 107.01017,
+        "ADDRESS": "陕西熙园生态农业有限公司",
+        "CERTNUM": "LB-44-19042602713A",
+        "LATITUDE": 33.07006,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610702003",
+        "NAME": "汉中炒青"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.7808, 38.377],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.102",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "101",
+        "LONGITUDE": 109.78075,
+        "ADDRESS": "陕西正大现代农业蛋鸡产业示范园区",
+        "CERTNUM": "LB-31-1611266604A",
+        "LATITUDE": 38.377013,
+        "TYPE": "其他",
+        "DISTRICTID": "610802106",
+        "NAME": "正大玉米黄鸡蛋"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.7808, 38.377],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.103",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "102",
+        "LONGITUDE": 109.78075,
+        "ADDRESS": "陕西正大现代农业蛋鸡产业示范园区",
+        "CERTNUM": "LB-31-1611266604A",
+        "LATITUDE": 38.377013,
+        "TYPE": "其他",
+        "DISTRICTID": "610802106",
+        "NAME": "正大富硒鸡蛋"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.7808, 38.377],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.104",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "103",
+        "LONGITUDE": 109.78075,
+        "ADDRESS": "陕西正大现代农业蛋鸡产业示范园区",
+        "CERTNUM": "LB-31-1611266604A",
+        "LATITUDE": 38.377013,
+        "TYPE": "其他",
+        "DISTRICTID": "610802106",
+        "NAME": "正大初产蛋"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.7808, 38.377],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.105",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "104",
+        "LONGITUDE": 109.78075,
+        "ADDRESS": "陕西正大现代农业蛋鸡产业示范园区",
+        "CERTNUM": "LB-31-1611266604A",
+        "LATITUDE": 38.377013,
+        "TYPE": "其他",
+        "DISTRICTID": "610802106",
+        "NAME": "正大蛋品"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.9289, 32.4955],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.106",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "105",
+        "LONGITUDE": 107.92885,
+        "ADDRESS": "汉中市南乡春茶业科技有限公司",
+        "CERTNUM": "LB-44-19052604371A",
+        "LATITUDE": 32.49547,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728110",
+        "NAME": "南乡春汉中红"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.9289, 32.4955],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.107",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "106",
+        "LONGITUDE": 107.92885,
+        "ADDRESS": "汉中市南乡春茶业科技有限公司",
+        "CERTNUM": "LB-44-19052604370A",
+        "LATITUDE": 32.49547,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728110",
+        "NAME": "南乡春汉中炒青"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.9624, 34.3335],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.108",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "107",
+        "LONGITUDE": 108.96237,
+        "ADDRESS": "陕西方旭实业有限责任公司洛川分公司",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 34.33353,
+        "TYPE": "苹果",
+        "DISTRICTID": "610112006",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.109",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "108",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川永旺果畜专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.110",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "109",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川民友生物果品有限责任公司",
+        "CERTNUM": "农绿科【2015】029",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4048, 35.7663],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.111",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "110",
+        "LONGITUDE": 109.40484,
+        "ADDRESS": "陕西洛川苹果有限公司",
+        "CERTNUM": "0000",
+        "LATITUDE": 35.76627,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.112",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "111",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川县农高果友专业合作社",
+        "CERTNUM": "农科绿【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.113",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "112",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川县旭华苹果专业合作社",
+        "CERTNUM": "LB-18-1702260769A",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果（红富士）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [110.4373, 35.4769],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.114",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "113",
+        "LONGITUDE": 110.437261,
+        "ADDRESS": "韩城市太史红果业有限公司",
+        "CERTNUM": "GF610581190488",
+        "LATITUDE": 35.476877,
+        "TYPE": "苹果",
+        "DISTRICTID": "610581001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4048, 35.7663],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.115",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "114",
+        "LONGITUDE": 109.40484,
+        "ADDRESS": "洛川县万和苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.76627,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.116",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "115",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川烂柯山绿色生态有机苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果（红富士）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.117",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "116",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川烂柯山绿色生态有机苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.118",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "117",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川兴智苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果（红富士）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.119",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "118",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川兴智苹果专业合作社",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.120",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "119",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川兰河饮品有限责任公司",
+        "CERTNUM": "农绿科【2015】29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果（红富士）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.121",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "120",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川兰河饮品有限责任公司",
+        "CERTNUM": "农绿科【2015】29",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.0902, 35.1387],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.122",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "121",
+        "LONGITUDE": 109.09023,
+        "ADDRESS": "陕西九州果业有限公司",
+        "CERTNUM": "LB-18-1702261453A",
+        "LATITUDE": 35.13866,
+        "TYPE": "苹果",
+        "DISTRICTID": "610203004",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.9289, 32.4955],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.123",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "122",
+        "LONGITUDE": 107.92885,
+        "ADDRESS": "陕西怡溪春茶业科技有限公司",
+        "CERTNUM": "LB-44-19052603925A",
+        "LATITUDE": 32.49547,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728110",
+        "NAME": "秦巴毛尖"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.9289, 32.4955],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.124",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "123",
+        "LONGITUDE": 107.92885,
+        "ADDRESS": "陕西怡溪春茶业科技有限公司",
+        "CERTNUM": "LB-44-19052603927A",
+        "LATITUDE": 32.49547,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728110",
+        "NAME": "汉中红茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.9289, 32.4955],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.125",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "124",
+        "LONGITUDE": 107.92885,
+        "ADDRESS": "陕西怡溪春茶业科技有限公司",
+        "CERTNUM": "LB-44-19052603926A",
+        "LATITUDE": 32.49547,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728110",
+        "NAME": "汉中仙毫"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.9445, 34.7959],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.126",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "125",
+        "LONGITUDE": 109.94446,
+        "ADDRESS": "陕西禾和猕猴桃科技开发有限公司",
+        "CERTNUM": "LB-18-18012600551A",
+        "LATITUDE": 34.79591,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610523001",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.0381, 33.0884],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.127",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "126",
+        "LONGITUDE": 107.03813,
+        "ADDRESS": "汉中市汉台区青禾田种养殖专业合作社",
+        "CERTNUM": "LB-03-19072606838A",
+        "LATITUDE": 33.08837,
+        "TYPE": "其他",
+        "DISTRICTID": "610702001",
+        "NAME": "大米"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.3743, 35.9877],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.128",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "127",
+        "LONGITUDE": 109.374276,
+        "ADDRESS": "富县延富家庭农场",
+        "CERTNUM": "115OP00029",
+        "LATITUDE": 35.98774,
+        "TYPE": "苹果",
+        "DISTRICTID": "610628001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5385, 32.5209],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.129",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "128",
+        "LONGITUDE": 108.538468,
+        "ADDRESS": "紫阳县科宏茶业有限公司",
+        "CERTNUM": "LB-44-19022601299A",
+        "LATITUDE": 32.520891,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "绿茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5385, 32.5209],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.130",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "129",
+        "LONGITUDE": 108.538468,
+        "ADDRESS": "紫阳县科宏茶业有限公司",
+        "CERTNUM": "LB-44-19022601298A",
+        "LATITUDE": 32.520891,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "红茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [110.1166, 34.7213],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.131",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "130",
+        "LONGITUDE": 110.116644,
+        "ADDRESS": "陕西省农垦集团华阴农场有限责任公司",
+        "CERTNUM": "LB-18-20042600028A",
+        "LATITUDE": 34.72131,
+        "TYPE": "其他",
+        "DISTRICTID": "610523111",
+        "NAME": "樱桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8872, 32.5433],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.132",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "131",
+        "LONGITUDE": 107.887214,
+        "ADDRESS": "汉中青狮茶业发展有限公司",
+        "CERTNUM": "LB-44-19052603794A",
+        "LATITUDE": 32.543347,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728001",
+        "NAME": "绿茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [106.6929, 33.1717],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.133",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "132",
+        "LONGITUDE": 106.69294,
+        "ADDRESS": "汉中远健农业综合开发有限公司",
+        "CERTNUM": "LB-44-19052604338A",
+        "LATITUDE": 33.17166,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610725001",
+        "NAME": "绿茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [106.6929, 33.1717],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.134",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "133",
+        "LONGITUDE": 106.69294,
+        "ADDRESS": "汉中远健农业综合开发有限公司",
+        "CERTNUM": "LB-44-19052604341A",
+        "LATITUDE": 33.17166,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610725001",
+        "NAME": "红茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.762, 32.9851],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.135",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "134",
+        "LONGITUDE": 107.762001,
+        "ADDRESS": "西乡县毛桃哥农业科技有限公司",
+        "CERTNUM": "LB-18-19082607928A",
+        "LATITUDE": 32.985053,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610724001",
+        "NAME": "徐香猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.762, 32.9851],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.136",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "135",
+        "LONGITUDE": 107.762001,
+        "ADDRESS": "西乡县鼎丰源农业发展有限公司",
+        "CERTNUM": "LB-18-190812607928A",
+        "LATITUDE": 32.985053,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610724001",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.9106, 34.436],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.137",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "136",
+        "LONGITUDE": 107.91059,
+        "ADDRESS": "陕西红果贸易有限公司",
+        "CERTNUM": "LB-18-1703261914A，LB-18-1703261915A，LB-18-1703261916A，LB-18-1703261917A",
+        "LATITUDE": 34.43597,
+        "TYPE": "苹果",
+        "DISTRICTID": "610324107",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.4269, 35.762],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.138",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "137",
+        "LONGITUDE": 109.426905,
+        "ADDRESS": "洛川县萬盛果业有限责任公司",
+        "CERTNUM": "农绿科（2015）29号",
+        "LATITUDE": 35.762043,
+        "TYPE": "苹果",
+        "DISTRICTID": "610629001",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [110.1781, 37.7545],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.139",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "138",
+        "LONGITUDE": 110.178139,
+        "ADDRESS": "米脂县楚苑林业技术服务有限公司",
+        "CERTNUM": "WGH-SN01-1800820",
+        "LATITUDE": 37.754523,
+        "TYPE": "苹果",
+        "DISTRICTID": "610827001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5118, 32.5188],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.140",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "139",
+        "LONGITUDE": 108.51178,
+        "ADDRESS": "紫阳县康硒天茗茶业有限公司",
+        "CERTNUM": "LB-44-19042602825A",
+        "LATITUDE": 32.51882,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳毛尖茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5118, 32.5188],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.141",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "140",
+        "LONGITUDE": 108.51178,
+        "ADDRESS": "紫阳县康硒天茗茶业有限公司",
+        "CERTNUM": "LB-44-19042602824A",
+        "LATITUDE": 32.51882,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳白茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [110.204, 39.2752],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.142",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "141",
+        "LONGITUDE": 110.20403,
+        "ADDRESS": "榆林市荣泽农业科技有限公司",
+        "CERTNUM": "LB-23-18072604844A",
+        "LATITUDE": 39.27519,
+        "TYPE": "其他",
+        "DISTRICTID": "610881106",
+        "NAME": "马铃薯"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.505, 34.5013],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.143",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "142",
+        "LONGITUDE": 109.50498,
+        "ADDRESS": "渭南恒泰果业有限责任公司",
+        "CERTNUM": "LB-18-20042601365A",
+        "LATITUDE": 34.501276,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610502001",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.1729, 35.1236],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.144",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "143",
+        "LONGITUDE": 109.1729,
+        "ADDRESS": "陕西大匠农科产业（集团）有限公司",
+        "CERTNUM": "LB-31-19082608030A",
+        "LATITUDE": 35.12356,
+        "TYPE": "其他",
+        "DISTRICTID": "610203101",
+        "NAME": "春蕾鸡蛋"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8895, 32.5402],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.145",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "144",
+        "LONGITUDE": 107.889534,
+        "ADDRESS": "镇巴县丰源林牧业有限公司",
+        "CERTNUM": "LB-44-19062604896A",
+        "LATITUDE": 32.540152,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728001",
+        "NAME": "绿茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.9978, 34.1917],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.146",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "145",
+        "LONGITUDE": 107.997796,
+        "ADDRESS": "眉县猴娃桥果业专业合作社",
+        "CERTNUM": "LB-18-20062603745A",
+        "LATITUDE": 34.191737,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610326101",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5963, 37.5942],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.147",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "146",
+        "LONGITUDE": 107.596315,
+        "ADDRESS": "定边县沃野农业开发有限公司",
+        "CERTNUM": "LB-15-20012607810A",
+        "LATITUDE": 37.594208,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "胡萝卜"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5963, 37.5942],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.148",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "147",
+        "LONGITUDE": 107.596315,
+        "ADDRESS": "定边县沃野农业开发有限公司",
+        "CERTNUM": "LB-15-20012607812A",
+        "LATITUDE": 37.594208,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "马铃薯"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5963, 37.5942],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.149",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "148",
+        "LONGITUDE": 107.596315,
+        "ADDRESS": "定边县沃野农业开发有限公司",
+        "CERTNUM": "LB-15-20012607811A",
+        "LATITUDE": 37.594208,
+        "TYPE": "其他",
+        "DISTRICTID": "610825001",
+        "NAME": "辣椒"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.3894, 34.5203],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.150",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "149",
+        "LONGITUDE": 107.38939,
+        "ADDRESS": "凤翔县汇根农业种植专业合作社",
+        "CERTNUM": "LB-18-20072605205A",
+        "LATITUDE": 34.52029,
+        "TYPE": "苹果",
+        "DISTRICTID": "610322100",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.6158, 34.3373],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.151",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "150",
+        "LONGITUDE": 108.615772,
+        "ADDRESS": "咸阳德宁现代农业有限公司",
+        "CERTNUM": "LB-18-18082607221A",
+        "LATITUDE": 34.337314,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610481004",
+        "NAME": "夏黑"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.6158, 34.3373],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.152",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "151",
+        "LONGITUDE": 108.615772,
+        "ADDRESS": "咸阳德宁现代农业有限公司",
+        "CERTNUM": "LB-18-18082607221A",
+        "LATITUDE": 34.337314,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610481004",
+        "NAME": "克瑞森"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.7451, 34.2755],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.153",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "152",
+        "LONGITUDE": 107.745106,
+        "ADDRESS": "眉县眉果香猕猴桃专业合作社",
+        "CERTNUM": "GF610326203043",
+        "LATITUDE": 34.27553,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610326001",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.0189, 33.0695],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.154",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "153",
+        "LONGITUDE": 107.018931,
+        "ADDRESS": "汉中民本实业有限责任公司",
+        "CERTNUM": "GF610722201292",
+        "LATITUDE": 33.069458,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610702003",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [110.1124, 37.0925],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.155",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "154",
+        "LONGITUDE": 110.11235,
+        "ADDRESS": "清涧县北方土特产开发有限责任公司",
+        "CERTNUM": "LB-19-18052604309A",
+        "LATITUDE": 37.09251,
+        "TYPE": "其他",
+        "DISTRICTID": "610830100",
+        "NAME": "狗头枣"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.2577, 35.5796],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.156",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "155",
+        "LONGITUDE": 109.257742,
+        "ADDRESS": "黄陵县景盛果业农民专业合作社",
+        "CERTNUM": "LB-18-18052603271A",
+        "LATITUDE": 35.579647,
+        "TYPE": "苹果",
+        "DISTRICTID": "610632001",
+        "NAME": "延安苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.2747, 35.6436],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.157",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "156",
+        "LONGITUDE": 109.27466,
+        "ADDRESS": "黄陵县太贤中心社区诚信果业专业合作社",
+        "CERTNUM": "LB-18-18042602883A",
+        "LATITUDE": 35.64361,
+        "TYPE": "苹果",
+        "DISTRICTID": "610632104",
+        "NAME": "洛川苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.2577, 35.5796],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.158",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "157",
+        "LONGITUDE": 109.257742,
+        "ADDRESS": "黄陵县隆太源苹果专业合作社",
+        "CERTNUM": "LB-18-18052603272A",
+        "LATITUDE": 35.579647,
+        "TYPE": "苹果",
+        "DISTRICTID": "610632001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.3155, 33.1434],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.159",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "158",
+        "LONGITUDE": 107.31546,
+        "ADDRESS": "汉中顺丰农业科技发展有限责任公司",
+        "CERTNUM": "LB-03-20092608018A",
+        "LATITUDE": 33.14339,
+        "TYPE": "其他",
+        "DISTRICTID": "610722001",
+        "NAME": "大米"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [110.2414, 34.5456],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.160",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "159",
+        "LONGITUDE": 110.241423,
+        "ADDRESS": "潼关县金桥牧业有限公司",
+        "CERTNUM": "LB-18-19072612964A",
+        "LATITUDE": 34.545609,
+        "TYPE": "其他",
+        "DISTRICTID": "610522001",
+        "NAME": "红宝石软籽石榴"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.2262, 35.0353],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.161",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "160",
+        "LONGITUDE": 108.226234,
+        "ADDRESS": "咸阳鑫源现代农业专业合作社",
+        "CERTNUM": "LB-18-20092608081A",
+        "LATITUDE": 35.035271,
+        "TYPE": "苹果",
+        "DISTRICTID": "610429103",
+        "NAME": "蜜脆"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.1746, 34.746],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.162",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "161",
+        "LONGITUDE": 109.174588,
+        "ADDRESS": "陕西富平大方天玺绿色农业发展有限公司",
+        "CERTNUM": "LB-20-20062604657A",
+        "LATITUDE": 34.745991,
+        "TYPE": "其他",
+        "DISTRICTID": "610528001",
+        "NAME": "柿子"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.9301, 33.4048],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.163",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "162",
+        "LONGITUDE": 107.930091,
+        "ADDRESS": "陕西绿资农业开发有限公司",
+        "CERTNUM": "LB-18-20092609531A",
+        "LATITUDE": 33.404791,
+        "TYPE": "苹果",
+        "DISTRICTID": "610730103",
+        "NAME": "红富士"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5298, 32.5225],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.164",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "163",
+        "LONGITUDE": 108.529767,
+        "ADDRESS": "紫阳县秦巴紫硒农业科技有限公司",
+        "CERTNUM": "LB-44-20122612716A",
+        "LATITUDE": 32.522541,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "绿茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5298, 32.5225],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.165",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "164",
+        "LONGITUDE": 108.529767,
+        "ADDRESS": "紫阳县秦巴紫硒农业科技有限公司",
+        "CERTNUM": "LB-44-20122612717A",
+        "LATITUDE": 32.522541,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "红茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5399, 32.5207],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.166",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "165",
+        "LONGITUDE": 108.53986,
+        "ADDRESS": "紫阳县硒之源茶叶专业合作社",
+        "CERTNUM": "SC2020050774",
+        "LATITUDE": 32.52074,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "绿茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5266, 32.5252],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.167",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "166",
+        "LONGITUDE": 108.526589,
+        "ADDRESS": "紫阳县硒乡茗茶业有限责任公司",
+        "CERTNUM": "LB-44-20122616121A",
+        "LATITUDE": 32.525214,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "绿茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5266, 32.5252],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.168",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "167",
+        "LONGITUDE": 108.526589,
+        "ADDRESS": "紫阳县硒乡茗茶业有限责任公司",
+        "CERTNUM": "LB-44-20122616121A",
+        "LATITUDE": 32.525214,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "红茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.2161, 34.5574],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.169",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "168",
+        "LONGITUDE": 108.21614,
+        "ADDRESS": "乾县唐农苑现代农业有限公司",
+        "CERTNUM": "LB-18-20122616287A",
+        "LATITUDE": 34.55737,
+        "TYPE": "苹果",
+        "DISTRICTID": "610424001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8906, 32.5391],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.170",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "169",
+        "LONGITUDE": 107.890598,
+        "ADDRESS": "镇巴县隆升茶业有限公司",
+        "CERTNUM": "LB-44-20072604722A",
+        "LATITUDE": 32.539055,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728001",
+        "NAME": "汉中仙毫"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8906, 32.5391],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.171",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "170",
+        "LONGITUDE": 107.890598,
+        "ADDRESS": "镇巴县隆升茶业有限公司",
+        "CERTNUM": "LB-44-20072604721A",
+        "LATITUDE": 32.539055,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728001",
+        "NAME": "汉中毛尖"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8906, 32.5391],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.172",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "171",
+        "LONGITUDE": 107.890598,
+        "ADDRESS": "镇巴县隆升茶业有限公司",
+        "CERTNUM": "LB-44-20072604720A",
+        "LATITUDE": 32.539055,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728001",
+        "NAME": "汉中红茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8906, 32.5391],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.173",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "172",
+        "LONGITUDE": 107.890598,
+        "ADDRESS": "镇巴县隆升茶业有限公司",
+        "CERTNUM": "LB-44-200704719A",
+        "LATITUDE": 32.539055,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610728001",
+        "NAME": "汉中炒青"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.0219, 32.6854],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.174",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "173",
+        "LONGITUDE": 109.02191,
+        "ADDRESS": "安康闽秦茶业股份有限公司",
+        "CERTNUM": "ＬＢ－４４－１９０３２６０１６７１Ａ",
+        "LATITUDE": 32.68536,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610902002",
+        "NAME": "闽秦红茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.0219, 32.6854],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.175",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "174",
+        "LONGITUDE": 109.02191,
+        "ADDRESS": "安康闽秦茶业股份有限公司",
+        "CERTNUM": "ＬＢ－４４－１９０３２６０１６７０Ａ",
+        "LATITUDE": 32.68536,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610902002",
+        "NAME": "紫阳毛尖"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5298, 32.5225],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.176",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "175",
+        "LONGITUDE": 108.529767,
+        "ADDRESS": "紫阳县徐永树茶叶加工小作坊",
+        "CERTNUM": "SS2019041052",
+        "LATITUDE": 32.522541,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "绿茶"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.5476, 33.2163],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.177",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "176",
+        "LONGITUDE": 107.547575,
+        "ADDRESS": "洋县鸿源现代农业循环发展有限公司",
+        "CERTNUM": "LB-18-21062606851A",
+        "LATITUDE": 33.216317,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610723001",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.091, 34.2649],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.178",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "177",
+        "LONGITUDE": 108.09098,
+        "ADDRESS": "杨凌新佳苑家庭农场",
+        "CERTNUM": "GF610403190182",
+        "LATITUDE": 34.26492,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610403002",
+        "NAME": "无核红珍珠"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5198, 32.5204],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.179",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "178",
+        "LONGITUDE": 108.5198,
+        "ADDRESS": "紫阳山水生态茶厂",
+        "CERTNUM": "LB-44-20122616452A",
+        "LATITUDE": 32.52043,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳红茶 250g"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5198, 32.5204],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.180",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "179",
+        "LONGITUDE": 108.5198,
+        "ADDRESS": "紫阳山水生态茶厂",
+        "CERTNUM": "LB-44-20122616453A",
+        "LATITUDE": 32.52043,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳翠峰 96g（条装）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5198, 32.5204],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.181",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "180",
+        "LONGITUDE": 108.5198,
+        "ADDRESS": "紫阳山水生态茶厂",
+        "CERTNUM": "LB-44-20122616454A",
+        "LATITUDE": 32.52043,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳毛尖 250g（袋装）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5198, 32.5204],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.182",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "181",
+        "LONGITUDE": 108.5198,
+        "ADDRESS": "紫阳山水生态茶厂",
+        "CERTNUM": "LB-44-20122616455A",
+        "LATITUDE": 32.52043,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳银针 96g（条装）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.0786, 34.2528],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.183",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "182",
+        "LONGITUDE": 108.07862,
+        "ADDRESS": "杨凌锦田果蔬专业合作社",
+        "CERTNUM": "GF610403190920",
+        "LATITUDE": 34.2528,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610403002",
+        "NAME": "葡萄"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8906, 32.5391],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.184",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "183",
+        "LONGITUDE": 107.890598,
+        "ADDRESS": "镇巴县三元镇兴欣食用菌种植专业合作社",
+        "CERTNUM": "LB-21-21062607654A",
+        "LATITUDE": 32.539055,
+        "TYPE": "其他",
+        "DISTRICTID": "610728001",
+        "NAME": "涂兴欣牌香菇"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.8906, 32.5391],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.185",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "184",
+        "LONGITUDE": 107.890598,
+        "ADDRESS": "镇巴县三元镇兴欣食用菌种植专业合作社",
+        "CERTNUM": "LB-21-21062607655A",
+        "LATITUDE": 32.539055,
+        "TYPE": "其他",
+        "DISTRICTID": "610728001",
+        "NAME": "涂兴欣牌黑木耳"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [109.0946, 35.115],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.186",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "185",
+        "LONGITUDE": 109.094576,
+        "ADDRESS": "铜川市印台区裕源果业有限责任公司",
+        "CERTNUM": "LB-18-21062607943A",
+        "LATITUDE": 35.115004,
+        "TYPE": "苹果",
+        "DISTRICTID": "610203001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.0932, 34.2761],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.187",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "186",
+        "LONGITUDE": 108.09321,
+        "ADDRESS": "杨凌森果猕猴桃专业合作社",
+        "CERTNUM": "GF610403160912",
+        "LATITUDE": 34.27607,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610403001",
+        "NAME": "猕猴桃"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.0752, 34.2748],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.188",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "187",
+        "LONGITUDE": 108.07523,
+        "ADDRESS": "杨凌旺丰园果蔬专业合作社",
+        "CERTNUM": "LB-18-20042601771A",
+        "LATITUDE": 34.27484,
+        "TYPE": "其他",
+        "DISTRICTID": "610403001",
+        "NAME": "火龙果-红绣球"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.0752, 34.2748],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.189",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "188",
+        "LONGITUDE": 108.07523,
+        "ADDRESS": "杨凌旺丰园果蔬专业合作社",
+        "CERTNUM": "LB-18-20042601769A",
+        "LATITUDE": 34.27484,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610403001",
+        "NAME": "葡萄-阳光玫瑰"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.0752, 34.2748],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.190",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "189",
+        "LONGITUDE": 108.07523,
+        "ADDRESS": "杨凌旺丰园果蔬专业合作社",
+        "CERTNUM": "LB-18-20042601770A",
+        "LATITUDE": 34.27484,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610403001",
+        "NAME": "猕猴桃-翠香"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.0752, 34.2748],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.191",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "190",
+        "LONGITUDE": 108.07523,
+        "ADDRESS": "杨凌旺丰园果蔬专业合作社",
+        "CERTNUM": "LB-18-20042601769A",
+        "LATITUDE": 34.27484,
+        "TYPE": "葡萄",
+        "DISTRICTID": "610403001",
+        "NAME": "葡萄-摩尔多瓦"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.0752, 34.2748],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.192",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "191",
+        "LONGITUDE": 108.07523,
+        "ADDRESS": "杨凌旺丰园果蔬专业合作社",
+        "CERTNUM": "LB-18-20042601770A",
+        "LATITUDE": 34.27484,
+        "TYPE": "猕猴桃",
+        "DISTRICTID": "610403001",
+        "NAME": "猕猴桃-徐香"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [107.1767, 33.302],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.193",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "192",
+        "LONGITUDE": 107.176713,
+        "ADDRESS": "城固县珍珠蜜桔专业合作社",
+        "CERTNUM": "LB-18-19072609029A",
+        "LATITUDE": 33.301975,
+        "TYPE": "其他",
+        "DISTRICTID": "610722107",
+        "NAME": "橘子"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5198, 32.5204],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.194",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "193",
+        "LONGITUDE": 108.5198,
+        "ADDRESS": "紫阳山水生态茶厂",
+        "CERTNUM": "LB-44-20122616454A",
+        "LATITUDE": 32.52043,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳毛尖 96g（条装）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5198, 32.5204],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.195",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "194",
+        "LONGITUDE": 108.5198,
+        "ADDRESS": "紫阳山水生态茶厂",
+        "CERTNUM": "LB-44-20122616452A",
+        "LATITUDE": 32.52043,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳红茶 100g"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5198, 32.5204],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.196",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "195",
+        "LONGITUDE": 108.5198,
+        "ADDRESS": "紫阳山水生态茶厂",
+        "CERTNUM": "LB-44-20122616452A",
+        "LATITUDE": 32.52043,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳红茶 200g（罐装）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5198, 32.5204],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.197",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "196",
+        "LONGITUDE": 108.5198,
+        "ADDRESS": "紫阳山水生态茶厂",
+        "CERTNUM": "LB-44-20122616453A",
+        "LATITUDE": 32.52043,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳翠峰 250g（罐装）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5198, 32.5204],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.198",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "197",
+        "LONGITUDE": 108.5198,
+        "ADDRESS": "紫阳山水生态茶厂",
+        "CERTNUM": "LB-44-20122616452A",
+        "LATITUDE": 32.52043,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳红茶 96g（条装）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5198, 32.5204],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.199",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "198",
+        "LONGITUDE": 108.5198,
+        "ADDRESS": "紫阳山水生态茶厂",
+        "CERTNUM": "LB-44-20122616454A",
+        "LATITUDE": 32.52043,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳毛尖 250g（罐装）"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.5198, 32.5204],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.200",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "199",
+        "LONGITUDE": 108.5198,
+        "ADDRESS": "紫阳山水生态茶厂",
+        "CERTNUM": "LB-44-20122616454A",
+        "LATITUDE": 32.52043,
+        "TYPE": "茶叶",
+        "DISTRICTID": "610924100",
+        "NAME": "紫阳富硒茶礼盒 500g"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.9429, 34.616],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.201",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "200",
+        "LONGITUDE": 108.94287,
+        "ADDRESS": "咸阳果友果业专业合作社",
+        "CERTNUM": "LB-18-21072608607A",
+        "LATITUDE": 34.61596,
+        "TYPE": "苹果",
+        "DISTRICTID": "610422001",
+        "NAME": "苹果"
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [108.2439, 33.0402],
+        "type": "Point"
+      },
+      "id": "zlaq_lsncp.202",
+      "type": "Feature",
+      "properties": {
+        "NUCODE": "201",
+        "LONGITUDE": 108.243856,
+        "ADDRESS": "石泉县秦牧果业有限公司",
+        "CERTNUM": "LB-18-21052606253A",
+        "LATITUDE": 33.040228,
+        "TYPE": "其他",
+        "DISTRICTID": "610922100",
+        "NAME": "李"
+      }
+    }
+  ],
+  "displayFieldName": "NAME",
+  "YouMapServerVersion": "3.2.0",
+  "spatialReference": {
+    "wkid": "4490"
+  },
+  "fields": [
+    {
+      "name": "LONGITUDE",
+      "length": "",
+      "alias": "LONGITUDE",
+      "type": "BigDecimal"
+    },
+    {
+      "name": "LATITUDE",
+      "length": "",
+      "alias": "LATITUDE",
+      "type": "BigDecimal"
+    },
+    {
+      "name": "ADDRESS",
+      "length": "",
+      "alias": "ADDRESS",
+      "type": "String"
+    },
+    {
+      "name": "CERTNUM",
+      "length": "",
+      "alias": "CERTNUM",
+      "type": "String"
+    },
+    {
+      "name": "TYPE",
+      "length": "",
+      "alias": "TYPE",
+      "type": "String"
+    },
+    {
+      "name": "DISTRICTID",
+      "length": "",
+      "alias": "DISTRICTID",
+      "type": "String"
+    },
+    {
+      "name": "NAME",
+      "length": "",
+      "alias": "NAME",
+      "type": "String"
+    },
+    {
+      "name": "NUCODE",
+      "length": "",
+      "alias": "NUCODE",
+      "type": "String"
+    },
+    {
+      "name": "GEOM",
+      "length": "",
+      "alias": "GEOM",
+      "type": "Point"
+    }
+  ],
+  "geometryType": "GEOM",
+  "recordSize": 202
+}

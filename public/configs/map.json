@@ -1,0 +1,140 @@
+{
+  "center": [108.63364984990574, 34.01359297852605],
+  "pitch": 0,
+  "zoom": 9,
+  "bearing": 0,
+  "minZoom": 6.5,
+  "maxZoom": 18,
+  "dragRotate": true,
+  "epsg": "4490",
+  "templateValues": {
+    "shaanxiTdtServer": "https://shaanxi.tianditu.gov.cn"
+  },
+  "fullExtent": {
+    "extent": [
+      [105.783333, 32.166667],
+      [111.45, 39.983333]
+    ],
+    "pitch": 0
+  },
+  "token": {
+    "default": "KLSZfloFZoYooU*g",
+    "tianditu": "48ad25d128061c24f00559d481310004",
+    "sx_img": "qWAInhWf1YnKT-Up",
+    "sx_img_label": "JDhoOWNmEQAvV1Iq"
+  },
+  "current": "tdt_img",
+  "baseMaps": [
+    {
+      "id": "default",
+      "name": "矢量",
+      "icon": "/img/basemaps/stand.png",
+      "type": "vector",
+      "style": "${shaanxiTdtServer}/ServiceSystem/Tile/rest/service/sxww2022Geo/KLSZfloFZoYooU*g/VectorTileServer/styles/default.json"
+    },
+    {
+      "id": "blue",
+      "name": "蓝色",
+      "icon": "/img/basemaps/blue.png",
+      "type": "vector",
+      "style": "${shaanxiTdtServer}/ServiceSystem/Tile/rest/service/sxww2022Geo/KLSZfloFZoYooU*g/VectorTileServer/styles/blue.json"
+    },
+    {
+      "id": "black",
+      "name": "黑色",
+      "icon": "/img/basemaps/black.png",
+      "type": "vector",
+      "style": "${shaanxiTdtServer}/ServiceSystem/Tile/rest/service/sxww2022Geo/KLSZfloFZoYooU*g/VectorTileServer/styles/black.json"
+    },
+    {
+      "id": "gray",
+      "name": "灰色",
+      "icon": "/img/basemaps/gray.png",
+      "type": "vector",
+      "style": "${shaanxiTdtServer}/ServiceSystem/Tile/rest/service/sxww2022Geo/KLSZfloFZoYooU*g/VectorTileServer/styles/gray.json"
+    },
+    {
+      "id": "tdtsx_img",
+      "name": "影像",
+      "type": "raster",
+      "icon": "/img/basemaps/tdtsx_img.png",
+      "style": {
+        "sources": {
+          "tdtsximg": {
+            "type": "raster",
+            "tiles": ["${shaanxiTdtServer}/ServiceSystem/Tile/rest/service/SxImgMap/qWAInhWf1YnKT-Up/TileServer/tile/{z}/{y}/{x}"],
+            "tileSize": 256
+          },
+          "tdtsximglabel": {
+            "type": "raster",
+            "tiles": ["${shaanxiTdtServer}/ServiceSystem/Tile/rest/service/SxImgLabelMap/JDhoOWNmEQAvV1Iq/TileServer/tile/{z}/{y}/{x}"],
+            "tileSize": 256
+          }
+        },
+        "layers": [
+          {
+            "id": "tdtsximg-layer",
+            "name": "影像底图",
+            "type": "raster",
+            "source": "tdtsximg",
+
+            "metadata": {
+              "isBaseMap": true
+            },
+            "layout": {
+              "visibility": "visible"
+            }
+          }
+        ],
+        "glyphs": "https://shaanxi.tianditu.gov.cn/ServiceSystem/Tile/rest/service/sxww2022Geo/KLSZfloFZoYooU*g/VectorTileServer/fonts/{fontstack}/{range}.pbf",
+        "version": 8
+      },
+      "subLayers": [
+        {
+          "id": "tdtsximglabel-layer",
+          "name": "地名",
+          "type": "raster",
+          "source": "tdtsximglabel",
+          "metadata": {
+            "isBaseMap": true
+          },
+          "layout": {
+            "visibility": "visible"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tdt_img",
+      "name": "天地图影像",
+      "type": "raster",
+      "icon": "/img/basemaps/tdt_img.png",
+      "style": {
+        "sources": {
+          "tdtimg": {
+            "type": "raster",
+            "tiles": [
+              "https://t0.tianditu.gov.cn/DataServer?T=img_c&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t1.tianditu.gov.cn/DataServer?T=img_c&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t2.tianditu.gov.cn/DataServer?T=img_c&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t3.tianditu.gov.cn/DataServer?T=img_c&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa"
+            ],
+            "tileSize": 256
+          }
+        },
+        "layers": [
+          {
+            "id": "tdtimg-layer",
+            "name": "影像底图",
+            "type": "raster",
+            "source": "tdtimg",
+            "metadata": {
+              "isBaseMap": true
+            }
+          }
+        ]
+      },
+      "version": 8
+    }
+  ]
+}

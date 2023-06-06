@@ -1,0 +1,11 @@
+{
+  "home": "http://210.74.129.70:8086/zhny/home",
+  "district": {
+    "cityUrl": "http://210.74.129.81:8080/YouMapServer/rest/service/BouCity/MapServer/0/query",
+    "cityPtUrl": "http://210.74.129.81:8080/YouMapServer/rest/service/AnnCity/MapServer/0/query",
+    "countyUrl": "http://210.74.129.81:8080/YouMapServer/rest/service/BouCountry/MapServer/0/query",
+    "countyPtUrl": "http://210.74.129.81:8080/YouMapServer/rest/service/AnnCountry/MapServer/0/query",
+    "townUrl": "http://210.74.129.81:8080/YouMapServer/rest/service/BouTown/MapServer/0/query",
+    "townPtUrl": "http://210.74.129.81:8080/YouMapServer/rest/service/AnnTown/MapServer/0/query"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "center": [108.63364984990574, 34.01359297852605],
+  "pitch": 0,
+  "zoom": 9,
+  "bearing": 0,
+  "minZoom": 1,
+  "maxZoom": 18,
+  "dragRotate": true,
+  "epsg": "3857",
+  "projection": "globe",
+  "templateValues": {},
+  "fullExtent": {
+    "extent": [
+      [105.783333, 32.166667],
+      [111.45, 39.983333]
+    ],
+    "pitch": 0
+  },
+  "current": "arcgis_img",
+  "baseMaps": [
+    {
+      "id": "tdt_img",
+      "name": "天地图影像",
+      "type": "raster",
+      "icon": "/img/basemaps/tdt_img.png",
+      "style": {
+        "sources": {
+          "tdtimg": {
+            "type": "raster",
+            "tiles": [
+              "https://t0.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t1.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t2.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t3.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t4.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t5.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t6.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t7.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa"
+            ],
+            "tileSize": 256
+          },
+          "tdtimglabel": {
+            "type": "raster",
+            "tiles": [
+              "https://t0.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t1.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t2.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t3.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t4.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t5.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t6.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t7.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa"
+            ],
+            "tileSize": 256
+          },
+          "layers": [
+            {
+              "id": "tdtimg-layer",
+              "name": "影像底图",
+              "type": "raster",
+              "source": "tdtimg",
+              "metadata": {
+                "isBaseMap": true
+              }
+            }
+          ],
+          "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+          "terrain": {
+            "source": "mapbox-dem"
+          },
+          "version": 8
+        },
+        "subLayers": [
+          {
+            "id": "tdtimglabel-layer",
+            "name": "地名",
+            "type": "raster",
+            "source": "tdtimglabel",
+            "metadata": {
+              "isBaseMap": true
+            },
+            "layout": {
+              "visibility": "none"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "arcgis_img",
+      "name": "ArcGIS影像",
+      "type": "raster",
+      "icon": "/img/basemaps/esriWorldImagery.png",
+      "style": {
+        "sources": {
+          "arcigsonline": {
+            "type": "raster",
+            "tiles": ["https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"],
+            "tileSize": 256
+          },
+          "tdtimglabel": {
+            "type": "raster",
+            "tiles": [
+              "https://t0.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t1.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t2.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t3.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t4.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t5.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t6.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa",
+              "https://t7.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa"
+            ],
+            "tileSize": 256
+          },
+          "mapbox-dem": { "type": "raster-dem", "url": "mapbox://mapbox.mapbox-terrain-dem-v1", "tileSize": 512, "maxzoom": 10 }
+        },
+        "layers": [
+          {
+            "id": "img-layer",
+            "name": "影像底图",
+            "type": "raster",
+            "source": "arcigsonline",
+            "metadata": {
+              "isBaseMap": true
+            }
+          }
+        ],
+        "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+        "terrain": {
+          "source": "mapbox-dem"
+        },
+        "version": 8
+      },
+      "subLayers": [
+        {
+          "id": "tdtimglabel-layer",
+          "name": "地名",
+          "type": "raster",
+          "source": "tdtimglabel",
+          "metadata": {
+            "isBaseMap": true
+          },
+          "layout": {
+            "visibility": "none"
+          }
+        }
+      ]
+    }
+  ]
+}
