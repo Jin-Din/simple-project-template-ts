@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
+    "@jindin/mapboxgl-mapex": "^1.0.3",
     "@turf/turf": "^6.5.0",
     "@videojs-player/vue": "^1.0.0",
     "@vueuse/core": "^9.13.0",
@@ -27,7 +28,6 @@
     "pinia": "^2.0.33",
     "pinia-plugin-persist": "^1.0.0",
     "qrcode.vue": "^3.3.4",
-    "sxgis-mapboxgl-mapex": "^2.0.3",
     "unplugin-icons": "^0.15.3",
     "video.js": "^8.0.4",
     "vue": "^3.2.45",

@@ -39,7 +39,7 @@
 //@说明:
 import "animate.css";
 import { ref, onMounted } from "vue";
-import { Map, ISBaseMap, ISMapConfig, ISLayer, switchBaseMap, ISRasterBaseMap, useBaseMapState } from "sxgis-mapboxgl-mapex";
+import { Map, ISBaseMap, ISMapConfig, ISLayer, switchBaseMap, ISRasterBaseMap, useBaseMapState } from "@jindin/mapboxgl-mapex";
 
 import { getImageUrl } from "@/utils";
 

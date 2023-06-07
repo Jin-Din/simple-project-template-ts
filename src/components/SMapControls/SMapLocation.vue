@@ -56,7 +56,7 @@
 //@日期:
 //@说明:
 
-import mapboxgl, { Map } from "sxgis-mapboxgl-mapex";
+import mapboxgl, { Map } from "@jindin/mapboxgl-mapex";
 
 interface ISCoordinate {
   center: [number, number];

@@ -183,9 +183,9 @@
     kolorist "^1.7.0"
     local-pkg "^0.4.3"
 
-"sxgis-mapboxgl-mapex@^1.0.6":
+"@jindin/mapboxgl-mapex@^1.0.6":
   version "1.0.6"
-  resolved "https://registry.yarnpkg.com/sxgis-mapboxgl-mapex/-/sxgis-mapboxgl-mapex-1.0.6.tgz#382d412d90f2e3af5e141beed0ea12ba9fded646"
+  resolved "https://registry.yarnpkg.com/@jindin/mapboxgl-mapex/-/@jindin/mapboxgl-mapex-1.0.6.tgz#382d412d90f2e3af5e141beed0ea12ba9fded646"
   integrity sha512-icZhjvw4kOwnAenabjH907rBg6rPhSJIE6eEn5RKWaQCIitxS6TJb7VBEU4nIqV0CvStuwJioZ5NScvKcILMCA==
   dependencies:
     vue "^3.2.47"
@@ -3156,9 +3156,9 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-sxgis-mapboxgl-mapex@^1.0.6:
+@jindin/mapboxgl-mapex@^1.0.6:
   version "1.0.6"
-  resolved "https://registry.yarnpkg.com/sxgis-mapboxgl-mapex/-/sxgis-mapboxgl-mapex-1.0.6.tgz#1d5258fc0c8cfbfb7ea51738f15e1e0a85bb07f2"
+  resolved "https://registry.yarnpkg.com/@jindin/mapboxgl-mapex/-/@jindin/mapboxgl-mapex-1.0.6.tgz#1d5258fc0c8cfbfb7ea51738f15e1e0a85bb07f2"
   integrity sha512-yJh/9awg75lCN7sLAfWq4evqWhSoPpK6S+CPKDMwT0DiMyoABw4b69MQFxQC3Q06B/9122nDgQS2ZRSYHr7pxg==
   dependencies:
     vue "^3.2.47"

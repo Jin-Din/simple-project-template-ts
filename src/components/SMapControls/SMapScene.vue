@@ -66,7 +66,7 @@
 //@作者:
 //@日期:
 //@说明:
-import { Map } from "sxgis-mapboxgl-mapex";
+import { Map } from "@jindin/mapboxgl-mapex";
 import { ref } from "vue";
 // import { usePubStore } from "@/store";
 // const pubStore = usePubStore();

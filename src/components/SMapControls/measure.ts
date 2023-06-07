@@ -1,10 +1,10 @@
 import { Feature, FeatureCollection, Point, Polygon, LineString } from "geojson";
 import type { GeoJSONSource, LngLatLike, MarkerOptions } from "mapbox-gl";
-import { Map } from "sxgis-mapboxgl-mapex";
+import { Map } from "@jindin/mapboxgl-mapex";
 // import mapboxgl from "mapbox-gl";
 import mapboxgl from "@/libs/mapboxgl";
 // import "@cgcs2000/mapbox-gl/dist/mapbox-gl.css"; //如果全局没有引入样式，就在此引入样式
-import length from "@turf/length";
+
 import * as turf from "@turf/turf";
 
 /**
@@ -219,7 +219,7 @@ export const useMeasureLine = (map: Map) => {
   function getLength(coords: number[]) {
     let _points = points.concat([coords]);
     let line = turf.lineString(_points);
-    let len = length(line); //默认 kilometer
+    let len = turf.length(line); //默认 kilometer
     return len < 1 ? Math.round(len * 1000) + "m" : len.toFixed(2) + "km";
   }
 

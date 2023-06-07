@@ -117,7 +117,7 @@
 
 <script setup lang="ts">
 import SBaseMap from "@/components/SBaseMap.vue";
-import type { Map } from "sxgis-mapboxgl-mapex";
+import type { Map } from "@jindin/mapboxgl-mapex";
 import BaseMapSwitch from "@/components/BaseMapSwitch.vue";
 import { usePubStore } from "@/store";
 import useMapUtils from "@/utils/mapUtils";

@@ -54,7 +54,7 @@
 import { useRoute } from "vue-router";
 import { UserFilled, HomeFilled } from "@element-plus/icons-vue";
 import { usePubStore } from "@/store";
-import type { Map } from "sxgis-mapboxgl-mapex";
+import type { Map } from "@jindin/mapboxgl-mapex";
 import SBaseMap from "@/components/SBaseMap.vue";
 
 // import useTdtSource from "@/hooks/useTdtSource";

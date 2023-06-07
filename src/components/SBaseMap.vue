@@ -26,7 +26,7 @@
 //@日期:
 //@说明: 利用 solt 实现 SMap 组件
 
-import { Map, createMap, ISMapConfig } from "sxgis-mapboxgl-mapex";
+import { Map, createMap, ISMapConfig } from "@jindin/mapboxgl-mapex";
 // import useTryCatchPromise from "@/hooks/useTryCatchPromise";
 import { usePubStore } from "@/store";
 

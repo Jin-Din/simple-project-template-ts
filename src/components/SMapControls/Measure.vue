@@ -79,7 +79,7 @@
 //@日期:
 //@说明:
 
-import { Map } from "sxgis-mapboxgl-mapex";
+import { Map } from "@jindin/mapboxgl-mapex";
 import { useMeasureLine, useMeasureArea } from "./measure";
 import "./measure.css";
 interface ISProps {

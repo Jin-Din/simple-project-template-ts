@@ -1,4 +1,4 @@
-import type { ISMapConfig, Map } from "sxgis-mapboxgl-mapex";
+import type { ISMapConfig, Map } from "@jindin/mapboxgl-mapex";
 
 export interface ISConfig {
   urls: Urls | Record<string, any>;
