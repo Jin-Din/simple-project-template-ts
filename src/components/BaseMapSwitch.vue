@@ -49,7 +49,7 @@ let selectedBaseMapItem = ref<ISBaseMap>();
 let selectedBaseMapId = ref("");
 let selectedBaseMapIndex = ref(-1);
 
-const { currentBaseMapId } = useBaseMapState();
+const { currentBaseMapId } = toRefs(useBaseMapState());
 
 let checkedSubLayerIds = ref([] as string[]);
 const props = withDefaults(

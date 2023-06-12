@@ -65,7 +65,6 @@ onMounted(async () => {
   map = createMap(mapConfig.value!, props.basemapId);
 
   map.on("load", () => {
-    // map.initDefaultEmptyLayers();
     usePubStore().setMapConfig(mapConfig.value!);
     usePubStore().setMap(map);
 

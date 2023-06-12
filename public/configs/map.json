@@ -23,14 +23,14 @@
     "sx_img": "qWAInhWf1YnKT-Up",
     "sx_img_label": "JDhoOWNmEQAvV1Iq"
   },
-  "current": "tdt_img",
+  "current": "ziyang",
   "baseMaps": [
     {
       "id": "default",
       "name": "矢量",
       "icon": "/img/basemaps/stand.png",
       "type": "vector",
-      "style": "${shaanxiTdtServer}/ServiceSystem/Tile/rest/service/sxww2022Geo/KLSZfloFZoYooU*g/VectorTileServer/styles/default.json"
+      "style": "${shaanxiTdtServer}/ServiceSystem/Tile/rest/service/sxww2022Geo/KLSZfloFZoYooU*g/VectorTileServer/styles/default.json?level=2&code=610924000"
     },
     {
       "id": "blue",
@@ -52,6 +52,13 @@
       "icon": "/img/basemaps/gray.png",
       "type": "vector",
       "style": "${shaanxiTdtServer}/ServiceSystem/Tile/rest/service/sxww2022Geo/KLSZfloFZoYooU*g/VectorTileServer/styles/gray.json"
+    },
+    {
+      "id": "ziyang",
+      "name": "简版",
+      "icon": "/img/basemaps/gray.png",
+      "type": "vector",
+      "style": "https://shaanxi.tianditu.gov.cn/ServiceSystem/Tile/rest/service/sxxzqh2022/qXJHiEWi1X8NT3eD/VectorTileServer/styles/default.json"
     },
     {
       "id": "tdtsx_img",

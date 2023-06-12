@@ -15,3 +15,8 @@ type ISMistakeStatisticType = {
   [key in AuditStateType]: number;
 };
 export interface ISMistakeStatistic extends ISMistakeStatisticType {}
+
+export interface ISDistrict {
+  name: string;
+  pac: string;
+}
