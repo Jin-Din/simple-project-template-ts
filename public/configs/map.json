@@ -23,14 +23,14 @@
     "sx_img": "qWAInhWf1YnKT-Up",
     "sx_img_label": "JDhoOWNmEQAvV1Iq"
   },
-  "current": "ziyang",
+  "current": "blue",
   "baseMaps": [
     {
       "id": "default",
       "name": "矢量",
       "icon": "/img/basemaps/stand.png",
       "type": "vector",
-      "style": "${shaanxiTdtServer}/ServiceSystem/Tile/rest/service/sxww2022Geo/KLSZfloFZoYooU*g/VectorTileServer/styles/default.json?level=2&code=610924000"
+      "style": "${shaanxiTdtServer}/ServiceSystem/Tile/rest/service/sxww2022Geo/KLSZfloFZoYooU*g/VectorTileServer/styles/default.json"
     },
     {
       "id": "blue",

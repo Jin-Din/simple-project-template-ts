@@ -49,7 +49,7 @@ let selectedBaseMapItem = ref<ISBaseMap>();
 let selectedBaseMapId = ref("");
 let selectedBaseMapIndex = ref(-1);
 
-const { currentBaseMapId } = toRefs(useBaseMapState());
+const { currentBaseMapId } = useBaseMapState();
 
 let checkedSubLayerIds = ref([] as string[]);
 const props = withDefaults(
@@ -155,7 +155,7 @@ watch(
 );
 //监听 swicthbasemap底图id的变化，可以通知底图切换控件也跟着切换
 watch(
-  () => currentBaseMapId.value,
+  () => currentBaseMapId,
   (newValue, oldValue) => {
     console.log(newValue);
     selectedBaseMapId.value = newValue;
@@ -222,8 +222,13 @@ const handleChangeBaseMap = (item: ISBaseMap | string, index: number) => {
     item = (item as ISBaseMap).id;
   }
 
+  console.log("切换前");
+  console.log(props.map.getStyle());
+
   let { previousId, currentId } = switchBaseMap(item);
   selectedBaseMapId.value = currentId!;
+  console.log("切换后");
+  console.log(props.map.getStyle());
 
   emits("onBaseMapChange", item);
 };
