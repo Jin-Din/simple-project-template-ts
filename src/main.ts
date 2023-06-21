@@ -5,7 +5,6 @@ import "animate.css"; //动画
 import App from "./App.vue";
 import store from "./store";
 import router from "./router";
-
 import plugins from "./plugins"; //相关插件
 
 const app = createApp(App);

@@ -17,7 +17,14 @@
     "paths": {
       "@public/*": ["./public/*"],
       "@/*": ["./src/*"],
-      "@assets/*": ["./src/assets/*"]
+      "@assets/*": ["./src/assets/*"],
+      "@libs/*": ["./src/libs/*"],
+      "@views/*": ["./src/views/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@api/*": ["./src/api/*"],
+      "@router/*": ["./src/router/*"],
+      "@store/*": ["./src/store/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/plugins/echarts/index.js", "src/plugins/element/index.js"],

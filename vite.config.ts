@@ -31,8 +31,15 @@ export default defineConfig(({ command, mode }) => {
     resolve: {
       alias: {
         "@": resolve(__dirname, "src"),
-        "@assets": resolve(__dirname, "src/assets"),
         "@public": resolve(__dirname, "public"),
+        "@assets": resolve(__dirname, "src/assets"),
+        "@libs": resolve(__dirname, "src/libs"),
+        "@views": resolve(__dirname, "src/views"),
+        "@utils": resolve(__dirname, "src/utils"),
+        "@hooks": resolve(__dirname, "src/hooks"),
+        "@router": resolve(__dirname, "src/router"),
+        "@store": resolve(__dirname, "src/store"),
+        "@api": resolve(__dirname, "src/api"),
       },
     },
     plugins: [
