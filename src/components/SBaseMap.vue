@@ -25,15 +25,19 @@
 //@作者: Jin
 //@日期:
 //@说明: 利用 solt 实现 SMap 组件
-
-import { Map, createMap, ISMapConfig } from "@jindin/mapboxgl-mapex";
-// import useTryCatchPromise from "@/hooks/useTryCatchPromise";
-import { usePubStore } from "@/store";
+import axios from "axios";
+// import { Map } from "@jindin/mapboxgl-mapex";
+// import { createMap, ISMapConfig, switchBaseMap, resetBaseMap } from "@jindin/mapboxgl-mapex";
+import { Map } from "@jindin/mapboxgl-mapex";
+import { createMap, ISMapConfig, switchBaseMap, resetBaseMap } from "@jindin/mapboxgl-mapex";
+import { onMounted, ref } from "vue";
+import useTryCatchPromise from "../hooks/useTryCatchPromise";
+// import mapboxgl from "../mapEx/index";
 
 const { mapboxgl } = window;
 mapboxgl.accessToken = "pk.eyJ1Ijoib25lZ2lzZXIiLCJhIjoiY2plZHptcnVuMW5tazMzcWVteHM2aGFsZiJ9.ERWP7zZ-N6fmNl3cRocJ1g";
 
-let map: Map;
+let map = ref<Map>();
 
 let mapConfig = ref<ISMapConfig>();
 
@@ -60,61 +64,22 @@ onMounted(async () => {
     if (error) throw new Error("map.json 获取失败！");
     mapConfig.value = result.data;
   } else mapConfig.value = props.config;
+
   mapConfig.value = props.mapID ? { ...mapConfig.value, container: props.mapID } : mapConfig.value;
 
-  map = createMap(mapConfig.value!, props.basemapId);
+  map.value = await createMap(mapConfig.value!, props.basemapId);
 
-  map.on("load", () => {
-    usePubStore().setMapConfig(mapConfig.value!);
-    usePubStore().setMap(map);
+  map.value.on("load", () => {
+    // switchBaseMap("tdtsx_img");
+    emits("onMapLoaded", map.value as Map);
 
-    emits("onMapLoaded", map);
+    console.log(map.value!.getStyle());
   });
 });
 </script>
 
 <style scoped lang="less">
-.mask {
-  position: absolute;
-  pointer-events: none;
-  // background-color: rgba(127, 255, 212, 0.163);
-  background-image: url("@assets/img/mapbg_marker.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
 .circle-img {
-  position: absolute;
-  left: calc(50% - 459px);
-  top: 50px;
-  width: 918px;
-  height: 918px;
-  background-image: url("@assets/img/circle.png");
-  background-size: 100% 100%;
-}
-@keyframes rotation {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes rotation {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-.circle-img {
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
   animation: rotation 60s linear infinite;
   -moz-animation: rotation 60s linear infinite;
   -webkit-animation: rotation 60s linear infinite;

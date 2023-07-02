@@ -23,7 +23,8 @@
     "sx_img": "qWAInhWf1YnKT-Up",
     "sx_img_label": "JDhoOWNmEQAvV1Iq"
   },
-  "current": "blue",
+  "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+  "current": "tdt_img",
   "baseMaps": [
     {
       "id": "default",
@@ -143,5 +144,29 @@
       },
       "version": 8
     }
-  ]
+  ],
+  "overLayers": {
+    "sources": {
+      "zhezhao_boundy_source": {
+        "type": "geojson",
+        "data": "${appUrl}/data/maps/zhezhao.json"
+      }
+    },
+    "layers": [
+      {
+        "id": "zhezhao_boundy_source-layer",
+        "name": "遮罩",
+        "type": "fill",
+        "source": "zhezhao_boundy_source",
+        "paint": {
+          "fill-color": "#000",
+          "fill-opacity": 0.62,
+          "fill-outline-color": "#04d4e3"
+        },
+        "layout": {
+          "visibility": "visible"
+        }
+      }
+    ]
+  }
 }

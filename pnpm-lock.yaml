@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.0.4
     version: 0.0.4
   '@jindin/mapboxgl-mapex':
-    specifier: ^2.0.7
-    version: 2.0.7
+    specifier: ^3.0.0
+    version: 3.0.0
   '@turf/turf':
     specifier: ^6.5.0
     version: 6.5.0
@@ -416,8 +416,8 @@ packages:
       typescript: 5.1.3
     dev: false
 
-  /@jindin/mapboxgl-mapex@2.0.7:
-    resolution: {integrity: sha512-J03nFInIyAXsWV0DqdwDXUd1GogmTIFIzNyLavgzV4Wz5anUOf998C/rxiqUBXeIGnIyCf3jvpL5Jr0Dp9jUgw==}
+  /@jindin/mapboxgl-mapex@3.0.0:
+    resolution: {integrity: sha512-HZPGXvpX+hqJxcXTWKUTTAsLJsteMPg89B9ZCUElX6jRg6GZoQA5FiIVIxTPLNdTsZdahZFhThLL3rg5KvtV+A==}
     dependencies:
       vue: 3.3.4
     dev: false

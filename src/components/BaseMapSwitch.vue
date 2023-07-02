@@ -38,11 +38,13 @@
 //@日期:
 //@说明:
 import "animate.css";
+
 import { ref, onMounted } from "vue";
-import { Map, ISBaseMap, ISMapConfig, ISLayer, switchBaseMap, ISRasterBaseMap, useBaseMapState } from "@jindin/mapboxgl-mapex";
+import { Map } from "@jindin/mapboxgl-mapex";
+import { ISBaseMap, ISMapConfig, ISSubLayer, switchBaseMap, useBaseMapState } from "@jindin/mapboxgl-mapex";
 
-import { getImageUrl } from "@/utils";
-
+// import { Map } from "@jindin/mapboxgl-mapex";
+// import { ISBaseMap, ISMapConfig, ISLayer, switchBaseMap, ISRasterBaseMap, useBaseMapState } from "@jindin/mapboxgl-mapex";
 let baseMapsGroupVisible = ref(false);
 
 let selectedBaseMapItem = ref<ISBaseMap>();
@@ -54,7 +56,7 @@ const { currentBaseMapId } = useBaseMapState();
 let checkedSubLayerIds = ref([] as string[]);
 const props = withDefaults(
   defineProps<{
-    map: Map;
+    map: Map | undefined;
     mapConfig: ISMapConfig | undefined;
   }>(),
   {
@@ -72,38 +74,32 @@ const getDefaultBaseMapInfo = (input: ISBaseMap | string) => {
     default: {
       id: "default",
       name: "矢量",
-      icon: "/img/basemap/stand.png",
-      type: "vector",
+      icon: "/img/basemaps/default.png",
     },
     blue: {
       id: "blue",
       name: "蓝色",
-      icon: "/img/basemap/blue.png",
-      type: "vector",
+      icon: "/img/basemaps/blue.png",
     },
     black: {
       id: "black",
       name: "黑色",
-      icon: "/img/basemap/black.png",
-      type: "vector",
+      icon: "/img/basemaps/black.png",
     },
     gray: {
       id: "gray",
       name: "灰色",
-      icon: "/img/basemap/gray.png",
-      type: "vector",
+      icon: "/img/basemaps/gray.png",
     },
     tianditu_sx_img_group: {
       id: "tianditu_sx_img_group",
       name: "影像",
-      type: "raster",
-      icon: "/img/basemap/image.png",
+      icon: "/img/basemaps/image.png",
     },
     tianditu_img_c_group: {
       id: "tianditu_img_c_group",
       name: "全国",
-      type: "raster",
-      icon: "/img/basemap/tdt_img.png",
+      icon: "/img/basemaps/tdt_img.png",
     },
   };
   if (typeof input === "string") {
@@ -113,21 +109,27 @@ const getDefaultBaseMapInfo = (input: ISBaseMap | string) => {
   return input as ISBaseMap;
 };
 
+/**
+ * 子图层
+ */
 const subLayers = computed(() => {
-  if (!selectedBaseMapItem.value) return [];
+  let ovLayers = [] as ISSubLayer[];
+  if (props.mapConfig && props.mapConfig.overLayers?.layers) {
+    //合并当前底图中的sublayers 和 overlayers 中layers
+    ovLayers = props.mapConfig?.overLayers.layers;
+    ovLayers.forEach((item) => {
+      item.visible = !item.layout || item.layout.visibility === "visible";
+    });
+  }
   if (selectedBaseMapItem.value?.hasOwnProperty("subLayers")) {
-    let rasterBasemap = selectedBaseMapItem.value as ISRasterBaseMap;
-    if (!rasterBasemap.subLayers) return [];
-    return rasterBasemap.subLayers
-      .filter((layer) => !(layer.metadata && layer.metadata.ISBaseMap === false))
-      .map((item) => {
-        return {
-          id: item.id,
-          name: item.name,
-          visible: item.layout ? item.layout.visibility === "visible" : true,
-        };
-      });
-  } else return [];
+    let selectedBasemap = selectedBaseMapItem.value;
+    let { subLayers = [] } = selectedBasemap;
+    subLayers.forEach((layer) => (layer.visible = layer.visible ?? true)); // 默认没有设置时为true
+    ovLayers = [...ovLayers, ...subLayers]; //
+    console.log(ovLayers);
+
+    return ovLayers;
+  } else return ovLayers;
 });
 
 watch(
@@ -155,7 +157,7 @@ watch(
 );
 //监听 swicthbasemap底图id的变化，可以通知底图切换控件也跟着切换
 watch(
-  () => currentBaseMapId,
+  () => currentBaseMapId.value,
   (newValue, oldValue) => {
     console.log(newValue);
     selectedBaseMapId.value = newValue;
@@ -167,11 +169,14 @@ watch(
 watch(
   () => selectedBaseMapId.value,
   (newValue, oldValue) => {
-    if (newValue)
-      selectedBaseMapItem.value = props.mapConfig?.baseMaps?.find((item) => {
+    if (newValue) {
+      console.log(newValue);
+      selectedBaseMapItem.value = props.mapConfig?.baseMaps?.find((item: string | ISBaseMap) => {
         if (typeof item === "string") return item === newValue;
         else return (<ISBaseMap>item).id === newValue;
       }) as ISBaseMap;
+      console.log(selectedBaseMapItem.value);
+    }
   },
   {
     immediate: true,
@@ -187,7 +192,7 @@ watch(checkedSubLayerIds, (newValue, oldValue) => {
 watch(
   () => subLayers.value,
   (newValue, oldValue) => {
-    checkedSubLayerIds.value = newValue.filter((item) => item.visible).map((layer) => layer.id);
+    if (newValue) checkedSubLayerIds.value = newValue.filter((item) => item.visible).map((layer) => layer.id);
   },
   {
     immediate: true,
@@ -205,31 +210,35 @@ watch(
 //
 // });
 
-const isLayerVisible = (item: ISLayer): boolean => {
-  return item.layout?.visibility === "visible";
-};
-
 const getImage = (path: string | undefined): string => {
   if (typeof path === "undefined") return "";
   return getImageUrl(path);
 };
-const handleChangeBaseMap = (item: ISBaseMap | string, index: number) => {
+const getImageUrl = (path: string, prefix?: string): any | string => {
+  const isStartWithHttpOrHttps = (url: string) => {
+    let reg = /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
+    return reg.test(url);
+  };
+
+  path = !!prefix ? `${prefix}${path}` : path;
+  //判断是否以http https 开头
+  if (isStartWithHttpOrHttps(path)) return new URL(path, import.meta.url).href;
+  //
+  path = `${import.meta.env.BASE_URL}${path.startsWith("/") ? path.slice(path.indexOf("/") + 1) : path}`;
+  return new URL(path, import.meta.url).href;
+};
+const handleChangeBaseMap = async (item: ISBaseMap | string, index: number) => {
   selectedBaseMapIndex.value = index;
   // selectedBaseMapId.value = typeof item === "string" ? item : (<ISBaseMap>item).id;
-  console.log(item);
+  // console.log(item);
 
   if (typeof item != "string") {
     item = (item as ISBaseMap).id;
   }
-
-  console.log("切换前");
-  console.log(props.map.getStyle());
-
-  let { previousId, currentId } = switchBaseMap(item);
+  let { previousId, currentId } = await switchBaseMap(item);
   selectedBaseMapId.value = currentId!;
-  console.log("切换后");
-  console.log(props.map.getStyle());
 
+  console.log(props.map?.getStyle());
   emits("onBaseMapChange", item);
 };
 
@@ -238,19 +247,51 @@ onMounted(() => {
     selectedBaseMapId.value = props.mapConfig.current!;
   }
 });
-
+/**
+ * 控制子图层开关
+ * @param checkedIds
+ */
 const handleChangeLayerVisible = (checkedIds: any[]) => {
   let allLayerIds = subLayers.value.map((item) => item.id);
   let uncheckedIds = subSet(allLayerIds, checkedIds); //两个数组取差
-
-  // console.log(checkedIds);
-
   if (props.map) {
-    checkedIds.forEach((id) => {
-      if (props.map.getLayer(id)) props.map.setLayoutProperty(id, "visibility", "visible");
+    checkedIds.forEach((chkid) => {
+      let sublayerItem = subLayers.value.find((item) => item.id === chkid);
+      if (!sublayerItem) return;
+      let arrayLayerIds = [];
+      let { layerIds = [] } = sublayerItem;
+
+      if (typeof layerIds === "string") {
+        arrayLayerIds = layerIds.split(",");
+      } else arrayLayerIds = layerIds;
+      //对 arrayLayerIds 二次处理，主要处理包含有通配符*（如youmap-*）的图层
+      arrayLayerIds = findMatchedLayers(arrayLayerIds);
+
+      // 本身就是图层id
+      if (props.map?.getLayer(sublayerItem.id)) arrayLayerIds.push(sublayerItem.id);
+      //统一处理
+      arrayLayerIds.forEach((layerid) => {
+        if (props.map?.getLayer(layerid)) props.map.setLayoutProperty(layerid, "visibility", "visible");
+      });
     });
-    uncheckedIds.forEach((id) => {
-      if (props.map.getLayer(id)) props.map.setLayoutProperty(id, "visibility", "none");
+    uncheckedIds.forEach((uchkid: string) => {
+      let sublayerItem = subLayers.value.find((item) => item.id === uchkid);
+      if (!sublayerItem) return;
+
+      let arrayLayerIds = [];
+      let { layerIds = [] } = sublayerItem;
+      if (typeof layerIds === "string") {
+        arrayLayerIds = layerIds.split(",");
+      } else arrayLayerIds = layerIds;
+      arrayLayerIds = findMatchedLayers(arrayLayerIds);
+      // console.log(arrayLayerIds);
+      // 本身就是图层id
+      if (props.map?.getLayer(sublayerItem.id)) arrayLayerIds.push(sublayerItem.id);
+
+      //统一处理
+      arrayLayerIds.forEach((layerid) => {
+        if (props.map?.getLayer(layerid)) props.map.setLayoutProperty(layerid, "visibility", "none");
+      });
     });
   }
 
@@ -267,6 +308,38 @@ const subSet = (arr1: string[], arr2: string[]) => {
     }
   }
   return subset;
+};
+/**
+ * 查找style中匹配layerid 的所有图层id， 如果含有*,? 通配符，也查询
+ * @param toMatchLayers
+ */
+const findMatchedLayers = (toMatchLayers: string[]): string[] => {
+  if (!props.map) return [];
+  let { layers } = props.map.getStyle();
+  return layers
+    .map((layerid) => layerid.id)
+    .filter((item) => {
+      return toMatchLayers.some((hit) => {
+        // if (hit === item) return true;
+        return match(hit, item);
+      });
+    });
+};
+/**
+ * 匹配通配符
+ * 如
+ * test("He*lo", "Hello"); // Yes
+ * test("He?lo*", "HelloWorld"); // Yes
+ * test("*pqrs", "pqrst"); // No because 't' is not in first
+ * test("abc*bcd", "abcdhghgbcd"); // Yes
+ * test("abc*c?d", "abcd"); // No because second must have 2 instances of 'c'
+ */
+const match = (reg: string, val: string): boolean => {
+  if (reg.length == 0 && val.length == 0) return true;
+  if (reg.length > 1 && reg[0] == "*" && val.length == 0) return false;
+  if ((reg.length > 1 && reg[0] == "?") || (reg.length != 0 && val.length != 0 && reg[0] == val[0])) return match(reg.substring(1), val.substring(1));
+  if (reg.length > 0 && reg[0] == "*") return match(reg.substring(1), val) || match(reg, val.substring(1));
+  return false;
 };
 </script>
 

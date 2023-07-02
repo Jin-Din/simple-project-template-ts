@@ -67,6 +67,7 @@ const bMapInited = computed(() => {
 const maploaded = (mapInstance: Map) => {
   map = mapInstance;
   mapRef.value = mapInstance;
+  pubStore.map = map;
 };
 </script>
 
