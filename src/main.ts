@@ -1,6 +1,5 @@
 import { createApp } from "vue";
 import "./style.css"; //全局样式
-import "./assets/css/mapbox.css"; //自定义的mapboxgl样式
 import "animate.css"; //动画
 import App from "./App.vue";
 import store from "./store";

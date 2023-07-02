@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-    <SBaseMap config="configs/map.json" @onMapLoaded="maploaded">
+    <SBaseMap config="configs/map3857.json" @onMapLoaded="maploaded">
       <template #right-bottom="{ map, mapConfig }">
         <div class="right-bottom-panel-container">
           <div class="toolbar">

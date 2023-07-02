@@ -8,7 +8,6 @@
   "dragRotate": true,
   "epsg": "3857",
   "projection": "globe",
-  "templateValues": {},
   "fullExtent": {
     "extent": [
       [105.783333, 32.166667],
@@ -52,39 +51,39 @@
               "https://t7.tianditu.gov.cn/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=3b659aefecf870a8390d6c77b8a4b8aa"
             ],
             "tileSize": 256
-          },
-          "layers": [
-            {
-              "id": "tdtimg-layer",
-              "name": "影像底图",
-              "type": "raster",
-              "source": "tdtimg",
-              "metadata": {
-                "isBaseMap": true
-              }
-            }
-          ],
-          "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
-          "terrain": {
-            "source": "mapbox-dem"
-          },
-          "version": 8
+          }
         },
-        "subLayers": [
+        "layers": [
           {
-            "id": "tdtimglabel-layer",
-            "name": "地名",
+            "id": "tdtimg-layer",
+            "name": "影像底图",
             "type": "raster",
-            "source": "tdtimglabel",
+            "source": "tdtimg",
             "metadata": {
               "isBaseMap": true
-            },
-            "layout": {
-              "visibility": "none"
             }
           }
-        ]
-      }
+        ],
+        "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+        "terrain": {
+          "source": "mapbox-dem"
+        },
+        "version": 8
+      },
+      "subLayers": [
+        {
+          "id": "tdtimglabel-layer",
+          "name": "地名",
+          "type": "raster",
+          "source": "tdtimglabel",
+          "metadata": {
+            "isBaseMap": true
+          },
+          "layout": {
+            "visibility": "none"
+          }
+        }
+      ]
     },
     {
       "id": "arcgis_img",
